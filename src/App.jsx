@@ -1,8 +1,11 @@
 import React from 'react'
+import Signup from './components/signup/Signup'
 
 function App() {
   return (
-    <div>Silicon Bear</div>
+    <div>
+      <Signup />
+    </div>
   )
 }
 
