@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signup__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    .signup{
+        flex: 1;
+        background: gray;
+        
+        .top__right{
+            float: right;
+            margin-right: 1rem;
+            font-size: small;
+            font-weight: normal;
+            #links__login{
+                text-decoration: none;
+                font-style: 600;
+                margin-left: 1rem;
+                cursor: pointer;
+                color: blue;
+                &:hover{
+                    color: purple;
+                }
+            }
+        }
+        .body__right{
+            height: 100%;
+            width: 100%;
+            .container{
+                height: 80%;
+                width: 80%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                margin: 2rem auto;
+                box-shadow: 0rem 0rem 2rem 0.1rem;
+                .input__group{
+                    width: 100%;
+                    h5{
+                        font-size: small;
+                        font-weight: 300;
+                        color: black;
+                        left: 2rem;
+                        top: 0.5rem;
+                    }
+                    input{
+                        margin: 2rem auto;
+                        width: 100%;
+                        border: none;
+                        padding-left: 0.5rem;
+                        &:focus{
+                            outline: none;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
