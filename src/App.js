@@ -8,12 +8,10 @@ function App() {
       <Router>
         <Switch>
           <Route path="/login" exact>
-          <Link to="/Signup">Sign Up</Link>
 
             <Login />
           </Route>
           <Route path='/Signup'>
-          <Link to="/Login">Login</Link>
 
             <Signup />
           </Route>
