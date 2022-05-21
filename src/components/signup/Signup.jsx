@@ -11,8 +11,7 @@ function Signup() {
   const [password1, setpassword1] = useState("");
   const [password2, setpassword2] = useState("");
   return (
-    <div className='signup__main'>
-      <div className="signup">
+      <div className="signup__container">
         <div className="top__right">
 
           <p>Already have an account?
@@ -20,8 +19,8 @@ function Signup() {
           </p>
 
           </div>
-          <div className="body__right">
-            <div className="container">
+          <div className="main__body">
+            <div className="body__container">
               <div className="h1">
               <h1>Create Account</h1>
 
@@ -57,7 +56,6 @@ function Signup() {
             </div>
           </div>
         </div>
-      </div>
 
   )
 }
