@@ -72,8 +72,9 @@
             border: small;
             color: black;
         }
+        
         .login__button{
-            width: 100%;
+            width: 50%;
             height: 3rem;
             background: purple;
             color: white;
@@ -87,5 +88,41 @@
                 box-shadow: 0.5px 0.5px 6px -1px black;
             }
         }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    input{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .login_container{
+        .container{
+            width: 100%;
+            input{
+                width: 70%;
+                margin-left: 10%;
+                margin-right: 10%;                
+            }
+            label{
+                width: 70%;
+                margin-left: 10%;
+            
+            }
+            .login__button{
+                margin-left: 20%;
+            }
+            .footer{
+                display: column;
+                align-items: center;
+                justify-content: center;
+                margin-left: 10%;
+                
+            }
+        }
+    
     }
 }
